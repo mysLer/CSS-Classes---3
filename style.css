@@ -1,9 +1,26 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#head1 {
+    color: aquamarine;
+}
+
+.title {
+    font-size: 48px;
+    background-color: antiquewhite;
+    font-weight: 400;
+}
+
+#head2 {
+    color: pink;
+}
+
+.description {
     font-size: 24px;
 }
 
-p {
-    font-size: 12px;
-    font-weight: 600;
+h3.description {
+    color: aquamarine;
 }
