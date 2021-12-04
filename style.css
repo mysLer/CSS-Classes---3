@@ -1,26 +1,114 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
+} */
+
+* {
+    font-size: 24px;
+    /* text-align: right; */
+    /* yazilarizi saga sola veya ortaya hizalamak icin text-align: ; kullaniyoruz */
+    text-align: justify;
+    /* text-align: left; */
+    text-decoration: underline;
+    /* text-decoration: overline;  */
+    /* text-decoration: line-through; */
+     /* yazilarimizin altini ustunu veya ustunu cizmek icin kullaniyoruz */
+
+
+     text-transform: capitalize;
+     /* kelimelerin ilk harflerini buyultuyor */
+     /* text-transform: uppercase;  */
+     /* butun harfleri buyuk yapiyor */
+     /* text-transform: lowercase; */
+     /* kelimelerin hepsini kucuk harf yapiyor */
+     
+     
+     
+
+      
 }
 
+
+    
+
+
+.container {
+    margin: auto;
+    width: 75%;
+}
 #head1 {
-    color: aquamarine;
+    font-size: 24px;
+    /* margin: 10px auto; */
+    margin: 2vh 5vw;
+    /* ( % alma işlemi) */
+    color: rgb(123, 35, 147);
+    width: 300px;
+    padding: 50px;
+    border: 1px solid gray;
+    box-sizing: border-box;
 }
 
 .title {
-    font-size: 48px;
+    /* font-size: 48px; */
+    font-size: 2rem;
     background-color: antiquewhite;
     font-weight: 400;
 }
 
 #head2 {
-    color: pink;
+    border: 2px dotted blue;
+    /* border larin hepsini tek yerde verebiliyoruz */
+    color: rgba(255, 0 , 0 , 0.3);
+    /* margin-bottom: 10px;
+    margin-left: 20px; */
+    margin: 5px 3px 10px 2px;
+    margin: 10px 20px;
+
 }
 
-.description {
+p.description {
+    text-indent: 20px;
+    /* paragraf yapmak icin  */
+    text-align: justify;
+
+    letter-spacing: 10px; 
+    /* harflerin arasina bosluk birakmak icin    */
+
+    line-height: 60px;
+    /* satirlara bosluk mesafe birakiyor */
+
+    text-shadow: 1px 1px red;
+    /* golge vermek icin ilk yazilan "1px" dikey icin ikinci yazilan ise Yatay golge icin mesafe */
+
     font-size: 24px;
+    /* margin: 2em; */
+    /* burada margin'deki 2em degeri font-size'in 2 kati demek oluyor, yani margin 48 olmus oluyor  */
+
+    margin: 2rem;  
+    /* root element */
+    /* (rem   universel (*) daki font-size ne ise onun çarpımı olur) */
+    color: #000;
+    background-color: greenyellow;
+
+
 }
 
 h3.description {
-    color: aquamarine;
+
+    margin: 5%;
+
+    /* (kenar kalinligi border-width üst-sag-alt-sol) */
+    border-width: 2px 5px 3px 10px;  
+    /* top right bottom left  */
+    border-width: 2px 5px;
+    /* top-bottom // right-left */
+    border-style: solid;
+    border-color: red;
+    color: #aeaeae;
 }
+
+/* 0 1 2 3 4 .... 9 A B C D E F 
+
+f -> 15.1 + 15.16 = 255
+
+*/
