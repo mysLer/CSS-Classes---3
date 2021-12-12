@@ -1,3 +1,14 @@
+@font-face {
+    font-family: firstFont;
+    src: url('./Fonts/Montserrat/Montserrat-Thin.ttf');
+}
+@font-face {
+    font-family: secondFont;
+    src: url('./Fonts/Montserrat/Montserrat-Bold.ttf');
+}
+/* font ekleme yaparken font önce @font-face {} acildiktan sonra istenilen head ve ya p ye uygulanir.  */
+
+
 /* * {
     margin: 0;
     padding: 0;
@@ -9,7 +20,7 @@
     /* yazilarizi saga sola veya ortaya hizalamak icin text-align: ; kullaniyoruz */
     text-align: justify;
     /* text-align: left; */
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* text-decoration: overline;  */
     /* text-decoration: line-through; */
      /* yazilarimizin altini ustunu veya ustunu cizmek icin kullaniyoruz */
@@ -67,6 +78,7 @@
 }
 
 p.description {
+    font-family: secondFont;
     text-indent: 20px;
     /* paragraf yapmak icin  */
     text-align: justify;
@@ -88,7 +100,7 @@ p.description {
     /* root element */
     /* (rem   universel (*) daki font-size ne ise onun çarpımı olur) */
     color: #000;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
 
 
 }
