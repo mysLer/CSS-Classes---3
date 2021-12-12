@@ -9,19 +9,7 @@
     /* yazilarizi saga sola veya ortaya hizalamak icin text-align: ; kullaniyoruz */
     text-align: justify;
     /* text-align: left; */
-    text-decoration: underline;
-    /* text-decoration: overline;  */
-    /* text-decoration: line-through; */
-     /* yazilarimizin altini ustunu veya ustunu cizmek icin kullaniyoruz */
-
-
-     text-transform: capitalize;
-     /* kelimelerin ilk harflerini buyultuyor */
-     /* text-transform: uppercase;  */
-     /* butun harfleri buyuk yapiyor */
-     /* text-transform: lowercase; */
-     /* kelimelerin hepsini kucuk harf yapiyor */
-     
+    
      
      
 
@@ -51,31 +39,82 @@
 .title {
     /* font-size: 48px; */
     font-size: 2rem;
+    margin: 2em;
     background-color: antiquewhite;
     font-weight: 400;
 }
 
 #head2 {
-    border: 2px dotted blue;
+
+    /* border: 2px dotted blue; */
     /* border larin hepsini tek yerde verebiliyoruz */
     color: rgba(255, 0 , 0 , 0.3);
     /* margin-bottom: 10px;
     margin-left: 20px; */
-    margin: 5px 3px 10px 2px;
-    margin: 10px 20px;
+    /* margin: 0px 0px 10px 0px; */
+    /* margin: 10px 20px; */
+    padding: 15px;
 
 }
 
-p.description {
+#heed3 {
+    margin: 20px;
+}
+
+/* CSS FONT
+    serif
+    sans-serif
+    monospace
+    cursive
+    fantasy
+    -font cesitleri- */
+.title1 {
+    font-family: 'Times New Roman', Times, serif;
+    /* -font cesitleri- */
+}
+.title2 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* -font cesitleri- */
+    
+}
+.title3 {
+    font-family: 'Courier New', Courier, monospace;
+    /* -font cesitleri- */
+}
+.title4 {
+    font-family: cursive;
+    /* -font cesitleri- */    
+}
+
+.title5 {
+    font-family: Luminari, fantasy ;
+    /* -font cesitleri- */
+}
+p.description {    
+    
     text-indent: 20px;
-    /* paragraf yapmak icin  */
-    text-align: justify;
+    /* paragraf yapmak icin, satir basi icin  */
+    
+    text-align: justify;    
+    /* text-align: left; */
+    text-decoration: underline;
+    /* text-decoration: overline;  */
+    /* text-decoration: line-through; */
+     /* yazilarimizin altini ustunu veya ustunu cizmek icin kullaniyoruz */
+
+
+     text-transform: capitalize;
+     /* kelimelerin ilk harflerini buyultuyor */
+     /* text-transform: uppercase;  */
+     /* butun harfleri buyuk yapiyor */
+     /* text-transform: lowercase; */
+     /* kelimelerin hepsini kucuk harf yapiyor */
 
     letter-spacing: 10px; 
-    /* harflerin arasina bosluk birakmak icin    */
+    /* harflerin arasina bosluk birakmak, genisletmek icin    */
 
     line-height: 60px;
-    /* satirlara bosluk mesafe birakiyor */
+    /* satirlara bosluk mesafe birakiyor, satir boslugu  */
 
     text-shadow: 1px 1px red;
     /* golge vermek icin ilk yazilan "1px" dikey icin ikinci yazilan ise Yatay golge icin mesafe */
@@ -88,14 +127,23 @@ p.description {
     /* root element */
     /* (rem   universel (*) daki font-size ne ise onun çarpımı olur) */
     color: #000;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
 
+    /* CSS FONT
+    serif
+    sans-serif
+    monospace
+    cursive
+    fantasy
+    -font cesitleri- */
 
 }
 
 h3.description {
 
     margin: 5%;
+
+    padding: 20px;
 
     /* (kenar kalinligi border-width üst-sag-alt-sol) */
     border-width: 2px 5px 3px 10px;  
