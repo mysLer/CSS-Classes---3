@@ -6,6 +6,11 @@
     font-family: secondFont;
     src: url('./Fonts/Montserrat/Montserrat-Bold.ttf');
 }
+
+@font-face {
+    font-family: noway;
+    src: url('./Fonts/PTMono/PTMono-Regular.ttf');
+}
 /* font ekleme yaparken font önce @font-face {} acildiktan sonra istenilen head ve ya p ye uygulanir.  */
 
 
