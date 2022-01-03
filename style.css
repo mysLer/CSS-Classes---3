@@ -11,6 +11,7 @@
     font-family: noway;
     src: url('./Fonts/PTMono/PTMono-Regular.ttf');
 }
+
 /* font ekleme yaparken font önce @font-face {} acildiktan sonra istenilen head ve ya p ye uygulanir.  */
 
 
@@ -22,10 +23,9 @@
 * {
     font-size: 24px;
     /* text-align: right; */
-    /* yazilarizi saga sola veya ortaya hizalamak icin text-align: ; kullaniyoruz */
+    /* yazilarizi saga sola veya ortaya kaydırmak götürmek hizalamak icin text-align: ; kullaniyoruz */
     text-align: justify;
     /* text-align: left; */
-<<<<<<< HEAD
     /* text-decoration: underline; */
     /* text-decoration: overline;  */
     /* text-decoration: line-through; */
@@ -38,11 +38,7 @@
      /* butun harfleri buyuk yapiyor */
      /* text-transform: lowercase; */
      /* kelimelerin hepsini kucuk harf yapiyor */
-     
-=======
-    
->>>>>>> 826d6a9cbd368c9eacf9995b1d02fd18b4ceaf54
-     
+        
      
 
       
@@ -93,42 +89,8 @@
     margin: 20px;
 }
 
-<<<<<<< HEAD
 p.description {
     font-family: secondFont;
-=======
-/* CSS FONT
-    serif
-    sans-serif
-    monospace
-    cursive
-    fantasy
-    -font cesitleri- */
-.title1 {
-    font-family: 'Times New Roman', Times, serif;
-    /* -font cesitleri- */
-}
-.title2 {
-    font-family: Arial, Helvetica, sans-serif;
-    /* -font cesitleri- */
-    
-}
-.title3 {
-    font-family: 'Courier New', Courier, monospace;
-    /* -font cesitleri- */
-}
-.title4 {
-    font-family: cursive;
-    /* -font cesitleri- */    
-}
-
-.title5 {
-    font-family: Luminari, fantasy ;
-    /* -font cesitleri- */
-}
-p.description {    
-    
->>>>>>> 826d6a9cbd368c9eacf9995b1d02fd18b4ceaf54
     text-indent: 20px;
     /* paragraf yapmak icin, satir basi icin  */
     
@@ -197,3 +159,48 @@ h3.description {
 f -> 15.1 + 15.16 = 255
 
 */
+
+
+a:active {color:rgb(0, 255, 106)}
+a:visited {color:rgb(4, 92, 26);}
+
+a:hover {
+    font-size: larger;
+    color: black;
+}
+/* google etiketinin standart mavi  rengini degistirmek icin ve mause ile üzerine gittigimizde 
+google yazisinin büyümetmek icin büyümesi icin 'a:hover' kullaniyoruz   */
+
+ul {
+    margin: 10px;
+    padding: 0px;
+}
+.list {
+    border: 1px solid black;
+    list-style-type: lower-roman;
+    list-style-position: outside;
+    
+}
+.list1 {
+    font-family: 'Times New Roman', Times, serif;
+    /* -font cesitleri, font belirleme - */
+}
+.list2 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* -font cesitleri- */
+
+}
+.list3 {
+    font-family: 'Courier New', Courier, monospace;
+    /* -font cesitleri- */
+}
+.list4 {
+    font-family: cursive;
+    /* -font cesitleri- */    
+}
+
+.list5 {
+    font-family: Luminari, fantasy ;
+    /* -font cesitleri- */
+    color: blueviolet;
+}
